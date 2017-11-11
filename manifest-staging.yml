@@ -5,7 +5,6 @@ applications:
   host: pcfdemoapp-staging
   domain: apps.kabdev.xyz
   instances: 1
-  buildpack: java_buildpack
   env:
    management.security.enabled: false
    endpoints.shutdown.enabled: true
