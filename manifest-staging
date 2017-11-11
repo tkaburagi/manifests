@@ -5,7 +5,6 @@ applications:
   host: pcfdemoapp-staging
   domain: apps.kabdev.xyz
   instances: 1
-  path: app-repo/*.jar
   buildpack: java_buildpack
   env:
    management.security.enabled: false
