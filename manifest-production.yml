@@ -1,0 +1,10 @@
+---
+applications:
+- name: pcfdemoapp
+  memory: 1G
+  host: pcfdemoapp
+  domain: apps.kabdev.xyz
+  instances: 1
+  env:
+   management.security.enabled: false
+   endpoints.shutdown.enabled: true
